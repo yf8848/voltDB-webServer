@@ -1,0 +1,322 @@
+2016-05-09 03:23:05,869   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2016-05-09 09:05:13,245   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2016-05-09 09:06:15,375   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2016-05-09 11:21:26,121   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2016-05-09 13:24:08,604   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2016-05-09 13:39:48,209   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2016-05-09 14:28:06,132   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2016-05-09 14:28:07,577   INFO  [main] HOST: Creating voltdbroot directory: /run/media/foogle/新加卷1/workspace/voltWeb/voltdbroot
+2016-05-09 14:28:07,680   INFO  [main] HOST: Generating default deployment file "/run/media/foogle/新加卷1/workspace/voltWeb/voltdbroot/deployment.xml"
+2016-05-09 14:28:07,728   INFO  [main] CONSOLE: Build: 5.9.dev1 This is not from a known repository Community Edition
+2016-05-09 14:28:07,728   INFO  [main] HOST: Command line arguments: org.voltdb.VoltDB create placementgroup 0 host localhost:3021
+2016-05-09 14:28:07,808   INFO  [main] HOST: Command line JVM arguments: -Xmx2048m -Djava.awt.headless=true -Dsun.net.inetaddr.ttl=300 -Dsun.net.inetaddr.negative.ttl=3600 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseCondCardMark -Dsun.rmi.dgc.server.gcInterval=9223372036854775807 -Dsun.rmi.dgc.client.gcInterval=9223372036854775807 -XX:CMSWaitDuration=120000 -XX:CMSMaxAbortablePrecleanTime=120000 -XX:+ExplicitGCInvokesConcurrent -XX:+CMSScavengeBeforeRemark -XX:+CMSClassUnloadingEnabled -XX:PermSize=64m -Dlog4j.configuration=file:///soft/voltdb-5.9/voltdb/log4j.xml -Djava.library.path=default
+2016-05-09 14:28:07,918   INFO  [main] HOST: Command line JVM classpath: /soft/voltdb-5.9/voltdb/voltdb-5.9.dev1.jar:/soft/voltdb-5.9/lib/jackson-mapper-asl-1.9.13.jar:/soft/voltdb-5.9/lib/snappy-java-1.1.1.7.jar:/soft/voltdb-5.9/lib/httpclient-4.3.2.jar:/soft/voltdb-5.9/lib/kafka-clients-0.8.2.1.jar:/soft/voltdb-5.9/lib/jsch-0.1.51.jar:/soft/voltdb-5.9/lib/commons-codec-1.6.jar:/soft/voltdb-5.9/lib/lz4-1.2.0.jar:/soft/voltdb-5.9/lib/slf4j-api-1.6.2.jar:/soft/voltdb-5.9/lib/jetty-server-7.6.1.v20120215.jar:/soft/voltdb-5.9/lib/commons-logging-1.1.3.jar:/soft/voltdb-5.9/lib/slf4j-nop-1.6.2.jar:/soft/voltdb-5.9/lib/jetty-io-7.6.1.v20120215.jar:/soft/voltdb-5.9/lib/log4j-1.2.16.jar:/soft/voltdb-5.9/lib/super-csv-2.1.0.jar:/soft/voltdb-5.9/lib/jna.jar:/soft/voltdb-5.9/lib/metrics-core-2.2.0.jar:/soft/voltdb-5.9/lib/jetty-util-7.6.1.v20120215.jar:/soft/voltdb-5.9/lib/protobuf-java-2.5.0.jar:/soft/voltdb-5.9/lib/httpcore-4.3.2.jar:/soft/voltdb-5.9/lib/commons-lang3-3.0.jar:/soft/voltdb-5.9/lib/avro-1.7.7.jar:/soft/voltdb-5.9/lib/jackson-core-asl-1.9.13.jar:/soft/voltdb-5.9/lib/scala-library-2.10.4.jar:/soft/voltdb-5.9/lib/servlet-api-2.5.jar:/soft/voltdb-5.9/lib/groovy-all-2.1.7-indy.jar:/soft/voltdb-5.9/lib/tomcat-jdbc.jar:/soft/voltdb-5.9/lib/kafka_2.10-0.8.2.1.jar:/soft/voltdb-5.9/lib/tomcat-juli.jar:/soft/voltdb-5.9/lib/felix.jar:/soft/voltdb-5.9/lib/jetty-http-7.6.1.v20120215.jar:/soft/voltdb-5.9/lib/jetty-continuation-7.6.1.v20120215.jar:/soft/voltdb-5.9/lib/jline-2.10.jar:/soft/voltdb-5.9/lib/httpasyncclient-4.0.1.jar:/soft/voltdb-5.9/lib/httpcore-nio-4.3.2.jar
+2016-05-09 14:28:07,943   INFO  [main] NETWORK: Default network thread count: 2
+2016-05-09 14:28:08,105   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2016-05-09 14:28:08,167   INFO  [main] HOST: Attempting to bind to leader ip localhost/127.0.0.1:3021
+2016-05-09 14:28:08,167   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2016-05-09 14:28:08,452   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:7181
+2016-05-09 14:28:08,509   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2016-05-09 14:28:08,882   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:7181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@6a79c292
+2016-05-09 14:28:08,909   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:7181
+2016-05-09 14:28:09,121   INFO  [main-SendThread(localhost.localdomain:7181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:7181, initiating session
+2016-05-09 14:28:09,121   INFO  [NIOServerCxn.Factory:/127.0.0.1:7181] ZK-SERVER: Accepted socket connection from /127.0.0.1:51050
+2016-05-09 14:28:09,256   INFO  [NIOServerCxn.Factory:/127.0.0.1:7181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:51050
+2016-05-09 14:28:09,276   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1eb1a2a2d4000000 with negotiated timeout 6000 for client /127.0.0.1:51050
+2016-05-09 14:28:09,276   INFO  [main-SendThread(localhost.localdomain:7181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:7181, sessionid = 0x1eb1a2a2d4000000, negotiated timeout = 6000
+2016-05-09 14:28:09,336   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2016-05-09 14:28:09,382   INFO  [main] HOST: Host id of this node is: 0
+2016-05-09 14:28:09,383   INFO  [main] CONSOLE: Host id of this node is: 0
+2016-05-09 14:28:09,448   INFO  [main] HOST: URL of deployment: /run/media/foogle/新加卷1/workspace/voltWeb/voltdbroot/deployment.xml
+2016-05-09 14:28:09,479   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2016-05-09 14:28:09,562   INFO  [main] HOST: Elastic duration set to 50 milliseconds
+2016-05-09 14:28:09,563   INFO  [main] HOST: Elastic throughput set to 2 mb/s
+2016-05-09 14:28:09,563   INFO  [main] HOST: Max temptable size set to 100 mb
+2016-05-09 14:28:09,563   INFO  [main] HOST: Snapshot priority set to 6 [0 - 10]
+2016-05-09 14:28:09,576   INFO  [main] HOST: Creating snapshot path directory: /run/media/foogle/新加卷1/workspace/voltWeb/voltdbroot/snapshots
+2016-05-09 14:28:09,577   INFO  [main] HOST: Creating export overflow directory: /run/media/foogle/新加卷1/workspace/voltWeb/voltdbroot/export_overflow
+2016-05-09 14:28:09,606   INFO  [main] HOST: Creating DR overflow directory: /run/media/foogle/新加卷1/workspace/voltWeb/voltdbroot/dr_overflow
+2016-05-09 14:28:10,454   INFO  [main] HOST: Searching for license file located /run/media/foogle/新加卷1/workspace/voltWeb/license.xml
+2016-05-09 14:28:10,492   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 0 promoted to be the global service provider
+2016-05-09 14:28:12,882   INFO  [main] EXPORT: System is not using any export functionality.
+2016-05-09 14:28:12,949   INFO  [main] CONSOLE: Initializing the database. This may take a moment...
+2016-05-09 14:28:13,128   INFO  [SP 0 Site - 0:0] HOST: Loading native VoltDB code (voltdb-5.9.dev1). A confirmation message will follow if the loading is successful.
+2016-05-09 14:28:13,191   INFO  [SP 0 Site - 0:0] HOST: Successfully loaded native VoltDB library voltdb-5.9.dev1.
+2016-05-09 14:28:13,201   WARN  [SP 2 Site - 0:2] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2016-05-09 14:28:13,440   INFO  [main] TM: Setting maximum size of MPI read pool to: 20
+2016-05-09 14:28:13,530   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2016-05-09 14:28:13,548   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 1
+2016-05-09 14:28:13,562   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:2 as leader for partition 2
+2016-05-09 14:28:13,574   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:3 as leader for partition 3
+2016-05-09 14:28:13,583   INFO  [LeaderCache] TM: SP 0:1 for partition 1 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2016-05-09 14:28:13,583   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2016-05-09 14:28:13,585   INFO  [LeaderCache] TM: SP 0:2 for partition 2 found (including self) 1 surviving replicas to repair.  Survivors: 0:2
+2016-05-09 14:28:13,598   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:4 as leader for partition 4
+2016-05-09 14:28:13,598   INFO  [LeaderCache] TM: SP 0:3 for partition 3 found (including self) 1 surviving replicas to repair.  Survivors: 0:3
+2016-05-09 14:28:13,604   INFO  [LeaderCache] TM: SP 0:3 for partition 3 finished leader promotion. Took 6 ms.
+2016-05-09 14:28:13,604   INFO  [LeaderCache] TM: SP 0:1 for partition 1 finished leader promotion. Took 34 ms.
+2016-05-09 14:28:13,604   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 57 ms.
+2016-05-09 14:28:13,604   INFO  [LeaderCache] TM: SP 0:2 for partition 2 finished leader promotion. Took 29 ms.
+2016-05-09 14:28:13,607   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 3
+2016-05-09 14:28:13,608   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 1
+2016-05-09 14:28:13,609   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 0
+2016-05-09 14:28:13,610   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 2
+2016-05-09 14:28:13,628   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:5 as leader for partition 5
+2016-05-09 14:28:13,632   INFO  [LeaderCache] TM: SP 0:4 for partition 4 found (including self) 1 surviving replicas to repair.  Survivors: 0:4
+2016-05-09 14:28:13,635   INFO  [LeaderCache] TM: SP 0:4 for partition 4 finished leader promotion. Took 9 ms.
+2016-05-09 14:28:13,636   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 4
+2016-05-09 14:28:13,646   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:6 as leader for partition 6
+2016-05-09 14:28:13,659   INFO  [LeaderCache] TM: SP 0:5 for partition 5 found (including self) 1 surviving replicas to repair.  Survivors: 0:5
+2016-05-09 14:28:13,659   INFO  [LeaderCache] TM: SP 0:5 for partition 5 finished leader promotion. Took 14 ms.
+2016-05-09 14:28:13,664   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 5
+2016-05-09 14:28:13,687   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:7 as leader for partition 7
+2016-05-09 14:28:13,703   INFO  [LeaderCache] TM: SP 0:6 for partition 6 found (including self) 1 surviving replicas to repair.  Survivors: 0:6
+2016-05-09 14:28:13,703   INFO  [LeaderCache] TM: SP 0:6 for partition 6 finished leader promotion. Took 17 ms.
+2016-05-09 14:28:13,709   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 6
+2016-05-09 14:28:13,721   INFO  [LeaderCache] TM: SP 0:7 for partition 7 found (including self) 1 surviving replicas to repair.  Survivors: 0:7
+2016-05-09 14:28:13,722   INFO  [LeaderCache] TM: SP 0:7 for partition 7 finished leader promotion. Took 2 ms.
+2016-05-09 14:28:13,733   INFO  [LeaderCache] EXPORT: ExportManager accepting mastership for partition 7
+2016-05-09 14:28:13,767   INFO  [LeaderCache] TM: MP 0:8 for partition 16383 found 8 surviving leaders to repair.  Survivors: 0:0, 0:1, 0:2, 0:3, 0:4, 0:5, 0:6, 0:7
+2016-05-09 14:28:13,769   INFO  [LeaderCache] TM: MP 0:8 for partition 16383 finished leader promotion. Took 11 ms.
+2016-05-09 14:28:13,791   INFO  [main] HOST: Database start action is Create.
+2016-05-09 14:28:14,035   INFO  [main] HOST: PID of this Volt process is 2790
+2016-05-09 14:28:14,035   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2016-05-09 14:28:14,035   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2016-05-09 14:28:14,035   INFO  [main] HOST: Local machine HTTP monitoring is listening on port 8080.
+2016-05-09 14:28:14,035   INFO  [main] HOST: Json API over HTTP enabled at path /api/1.0/, listening on port 8080.
+2016-05-09 14:28:14,035   INFO  [main] HOST: Maximum usable Java heap set to 2014 mb.
+2016-05-09 14:28:14,035   INFO  [main] HOST: Minimum required Java heap for catalog and server config is 384 MB.
+2016-05-09 14:28:14,036   INFO  [main] HOST: Cluster has 1 hosts with leader hostname: "localhost:3021". 8 sites per host. K = 0.
+2016-05-09 14:28:14,036   INFO  [main] HOST: The entire cluster has 1 copy of each of the 8 logical partitions.
+2016-05-09 14:28:14,036   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2016-05-09 14:28:14,036   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2016-05-09 14:28:14,036   INFO  [main] HOST: No schedule set for automated snapshots.
+2016-05-09 14:28:14,036   INFO  [main] HOST: Using "voltdbroot" for voltdbroot directory.
+2016-05-09 14:28:14,036   INFO  [main] HOST: CPU INFO:         2 Cores, 1 Sockets, 4 Hardware Threads
+2016-05-09 14:28:14,036   INFO  [main] HOST: CPU DESC:         Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz 3072 KB cache
+2016-05-09 14:28:14,037   INFO  [main] HOST: HOST MEMORY (MB): 11902
+2016-05-09 14:28:14,037   INFO  [main] HOST: OS PROFILE:       Linux 4.4.8-300.fc23.x86_64 amd64 zh_CN
+2016-05-09 14:28:14,037   INFO  [main] HOST: JAVA VERSION:     1.8.0_91
+2016-05-09 14:28:14,037   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.8.0_91-b14)
+2016-05-09 14:28:14,037   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (25.91-b14, mixed mode)
+2016-05-09 14:28:14,037   INFO  [main] HOST: The internal DR cluster timestamp is Mon May 09 14:28:09 GMT+00:00 2016.
+2016-05-09 14:28:14,037   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port,admin-port,http-port
+2016-05-09 14:28:14,038   INFO  [main] HOST:   Host id: 0 with interfaces: 10.181.248.56 21212,21211,8080 [SELF]
+2016-05-09 14:28:14,044   WARN  [main] CONSOLE: This is not a highly available cluster. K-Safety is set to 0.
+2016-05-09 14:28:14,044   WARN  [main] CONSOLE: Durability is turned off. Command logging is off.
+2016-05-09 14:28:14,057   INFO  [SnapshotDaemon] LOGGING: This node was selected as the leader for snapshot truncation
+2016-05-09 14:28:14,058   INFO  [Thread-15] HOST: Logging config info
+2016-05-09 14:28:14,156   INFO  [SnapshotDaemon] LOGGING: Checking for existence of snapshot truncation request
+2016-05-09 14:28:14,184   INFO  [Thread-16] HOST: No resource usage limit monitoring configured
+2016-05-09 14:28:14,371   INFO  [Thread-16] CONSOLE: Server completed initialization.
+2016-05-09 16:29:37,136   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.
+2016-05-09 16:29:37,324   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:37,325   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_users IF EXISTS
+2016-05-09 16:29:37,638   INFO  [SP 7 Site - 0:7] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:37,771   INFO  [SP 7 Site - 0:7] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:37,828   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:37,828   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_merchants IF EXISTS
+2016-05-09 16:29:38,121   INFO  [SP 6 Site - 0:6] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:38,184   INFO  [SP 6 Site - 0:6] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:38,259   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:38,260   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_goods IF EXISTS
+2016-05-09 16:29:38,579   INFO  [SP 2 Site - 0:2] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:38,634   INFO  [SP 2 Site - 0:2] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:38,685   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:38,685   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_orders IF EXISTS
+2016-05-09 16:29:39,058   INFO  [SP 2 Site - 0:2] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:39,136   INFO  [SP 2 Site - 0:2] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:39,201   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:39,202   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_carts IF EXISTS
+2016-05-09 16:29:39,487   INFO  [SP 0 Site - 0:0] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:39,572   INFO  [SP 0 Site - 0:0] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:39,612   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:39,613   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP TABLE goods IF EXISTS
+2016-05-09 16:29:39,986   INFO  [SP 0 Site - 0:0] HOST: Globally updating the current application catalog and deployment (new hashes D3D04CFD16, FB9F6B8DA6).
+2016-05-09 16:29:40,070   INFO  [SP 0 Site - 0:0] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:40,118   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:40,118   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP TABLE merchants IF EXISTS
+2016-05-09 16:29:40,433   INFO  [SP 7 Site - 0:7] HOST: Globally updating the current application catalog and deployment (new hashes C2BD6D7B63, FB9F6B8DA6).
+2016-05-09 16:29:40,518   INFO  [SP 7 Site - 0:7] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:40,566   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:40,566   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP TABLE users IF EXISTS
+2016-05-09 16:29:40,885   INFO  [SP 2 Site - 0:2] HOST: Globally updating the current application catalog and deployment (new hashes E03790F4A4, FB9F6B8DA6).
+2016-05-09 16:29:40,933   INFO  [SP 2 Site - 0:2] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:40,967   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:40,967   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP TABLE orders IF EXISTS
+2016-05-09 16:29:41,270   INFO  [SP 1 Site - 0:1] HOST: Globally updating the current application catalog and deployment (new hashes 466F060058, FB9F6B8DA6).
+2016-05-09 16:29:41,317   INFO  [SP 1 Site - 0:1] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:41,355   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:41,355   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP TABLE carts IF EXISTS
+2016-05-09 16:29:41,666   INFO  [SP 5 Site - 0:5] HOST: Globally updating the current application catalog and deployment (new hashes B5B00D2A1D, FB9F6B8DA6).
+2016-05-09 16:29:41,709   INFO  [SP 5 Site - 0:5] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:41,746   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:41,746   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_users IF EXISTS
+2016-05-09 16:29:42,061   INFO  [SP 7 Site - 0:7] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:42,108   INFO  [SP 7 Site - 0:7] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:42,145   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:42,145   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_merchants IF EXISTS
+2016-05-09 16:29:42,373   INFO  [SP 3 Site - 0:3] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:42,425   INFO  [SP 3 Site - 0:3] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:42,462   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:42,462   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_goods IF EXISTS
+2016-05-09 16:29:42,722   INFO  [SP 2 Site - 0:2] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:42,803   INFO  [SP 2 Site - 0:2] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:42,842   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:42,842   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_orders IF EXISTS
+2016-05-09 16:29:43,092   INFO  [SP 4 Site - 0:4] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:43,129   INFO  [SP 4 Site - 0:4] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:43,153   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:43,154   INFO  [Ad Hoc Planner - 0] COMPILER: 	DROP PROCEDURE search_all_carts IF EXISTS
+2016-05-09 16:29:43,390   INFO  [SP 3 Site - 0:3] HOST: Globally updating the current application catalog and deployment (new hashes 28425F586A, FB9F6B8DA6).
+2016-05-09 16:29:43,428   INFO  [SP 3 Site - 0:3] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:43,461   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:43,461   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE TABLE goods
+(
+  mid     varchar(32) UNIQUE NOT NULL,      
+  mname   varchar(32) NOT NULL,
+  mprice  bigint  NOT NULL,
+  mspid   varchar(10) NOT NULL,
+  msaled  int default 0,
+  mmount  int default 0,
+  mpress  varchar(32),
+  mauthor varchar(32),
+  mpubtime  TIMESTAMP default '0001-01-01 00:00:00.000000',
+  mpath   varchar(32),
+  mtag    varchar(32),
+  CONSTRAINT PK_goods PRIMARY KEY (mid),
+)
+2016-05-09 16:29:43,871   INFO  [SP 3 Site - 0:3] HOST: Globally updating the current application catalog and deployment (new hashes 91BF76C1D0, FB9F6B8DA6).
+2016-05-09 16:29:43,945   INFO  [SP 3 Site - 0:3] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:44,017   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:44,017   INFO  [Ad Hoc Planner - 0] COMPILER: 	PARTITION TABLE goods ON COLUMN mid
+2016-05-09 16:29:44,289   INFO  [SP 3 Site - 0:3] HOST: Globally updating the current application catalog and deployment (new hashes 64D5424DE8, FB9F6B8DA6).
+2016-05-09 16:29:44,345   INFO  [SP 3 Site - 0:3] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:44,398   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:44,398   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE INDEX i_mtag ON goods (mtag)
+2016-05-09 16:29:44,636   INFO  [SP 1 Site - 0:1] HOST: Globally updating the current application catalog and deployment (new hashes 8BB7D877DF, FB9F6B8DA6).
+2016-05-09 16:29:44,681   INFO  [SP 1 Site - 0:1] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:44,720   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:44,723   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE PROCEDURE search_all_goods as SELECT * FROM goods
+2016-05-09 16:29:45,116   INFO  [SP 0 Site - 0:0] HOST: Globally updating the current application catalog and deployment (new hashes 1FC73166A2, FB9F6B8DA6).
+2016-05-09 16:29:45,163   INFO  [SP 0 Site - 0:0] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:45,424   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:45,425   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE TABLE merchants
+(
+  spid      varchar(10) UNIQUE NOT  NULL,   
+  sppasswd  varchar(32) NOT NULL,
+  spname    varchar(32) NOT NULL,
+  spamt     bigint default 0,
+  sprank    tinyint default 0,
+  sppthone  varchar(12),
+  spaddress varchar(64),
+  PRIMARY KEY(spid),
+)
+2016-05-09 16:29:45,746   INFO  [SP 5 Site - 0:5] HOST: Globally updating the current application catalog and deployment (new hashes 88E5B20BE7, FB9F6B8DA6).
+2016-05-09 16:29:45,794   INFO  [SP 5 Site - 0:5] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:45,836   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:45,836   INFO  [Ad Hoc Planner - 0] COMPILER: 	PARTITION TABLE merchants ON COLUMN spid
+2016-05-09 16:29:46,092   INFO  [SP 7 Site - 0:7] HOST: Globally updating the current application catalog and deployment (new hashes B2D809B04E, FB9F6B8DA6).
+2016-05-09 16:29:46,133   INFO  [SP 7 Site - 0:7] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:46,211   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:46,211   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE INDEX i_spname ON merchants (spname)
+2016-05-09 16:29:46,433   INFO  [SP 5 Site - 0:5] HOST: Globally updating the current application catalog and deployment (new hashes A4789217B4, FB9F6B8DA6).
+2016-05-09 16:29:46,470   INFO  [SP 5 Site - 0:5] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:46,513   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:46,513   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE PROCEDURE search_all_merchants as SELECT * FROM merchants
+2016-05-09 16:29:46,792   INFO  [SP 1 Site - 0:1] HOST: Globally updating the current application catalog and deployment (new hashes 978125350C, FB9F6B8DA6).
+2016-05-09 16:29:46,851   INFO  [SP 1 Site - 0:1] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:46,937   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:46,937   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE TABLE users
+(
+  uid       varchar(32) UNIQUE NOT NULL,  
+  upasswd   varchar(32) NOT NULL,
+  uname     varchar(64) NOT NULL,
+  usex      varchar(2),
+  uphone    varchar(12) NOT NULL,
+  umail     varchar(64) NOT NULL,
+  uamt      bigint default 100000,
+  upayed    bigint default 0,
+  uage      int default 0,
+  PRIMARY KEY(uid),
+)
+2016-05-09 16:29:47,226   INFO  [SP 2 Site - 0:2] HOST: Globally updating the current application catalog and deployment (new hashes 68AB00359B, FB9F6B8DA6).
+2016-05-09 16:29:47,273   INFO  [SP 2 Site - 0:2] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:47,318   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:47,318   INFO  [Ad Hoc Planner - 0] COMPILER: 	PARTITION TABLE users ON COLUMN uid
+2016-05-09 16:29:47,585   INFO  [SP 1 Site - 0:1] HOST: Globally updating the current application catalog and deployment (new hashes 50DB0C6FDF, FB9F6B8DA6).
+2016-05-09 16:29:47,625   INFO  [SP 1 Site - 0:1] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:47,656   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:47,657   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE INDEX i_uphone ON users(uphone)
+2016-05-09 16:29:47,888   INFO  [SP 1 Site - 0:1] HOST: Globally updating the current application catalog and deployment (new hashes FF99EB548E, FB9F6B8DA6).
+2016-05-09 16:29:47,936   INFO  [SP 1 Site - 0:1] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:47,990   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:47,990   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE PROCEDURE search_all_users as SELECT * FROM users
+2016-05-09 16:29:48,271   INFO  [SP 6 Site - 0:6] HOST: Globally updating the current application catalog and deployment (new hashes D6BAF4FEB0, FB9F6B8DA6).
+2016-05-09 16:29:48,324   INFO  [SP 6 Site - 0:6] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:48,377   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:48,378   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE TABLE orders
+(
+  did       varchar(32) UNIQUE NOT NULL,      
+  uid       varchar(32) NOT NULL,
+  recname   varchar(32) NOT NULL,
+  recaddr   varchar(128)  NOT NULL,
+  recphtone varchar(12) NOT NULL,
+  passcode  varchar(10),
+  dprice    bigint  NOT NULL,
+  dstate    tinyint default 0,		
+  createtime  TIMESTAMP default '1000-01-01 00:00:00',
+  PRIMARY KEY(did),
+)
+2016-05-09 16:29:48,702   INFO  [SP 0 Site - 0:0] HOST: Globally updating the current application catalog and deployment (new hashes D8F35426FC, FB9F6B8DA6).
+2016-05-09 16:29:48,750   INFO  [SP 0 Site - 0:0] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:48,803   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:48,804   INFO  [Ad Hoc Planner - 0] COMPILER: 	PARTITION TABLE orders ON COLUMN did
+2016-05-09 16:29:49,134   INFO  [SP 4 Site - 0:4] HOST: Globally updating the current application catalog and deployment (new hashes 7FA90811B5, FB9F6B8DA6).
+2016-05-09 16:29:49,196   INFO  [SP 4 Site - 0:4] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:49,250   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:49,250   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE INDEX i_uc ON orders(uid, createtime)
+2016-05-09 16:29:49,504   INFO  [SP 0 Site - 0:0] HOST: Globally updating the current application catalog and deployment (new hashes BD8628F5BB, FB9F6B8DA6).
+2016-05-09 16:29:49,549   INFO  [SP 0 Site - 0:0] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:49,589   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:49,589   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE PROCEDURE search_all_orders as SELECT * FROM orders
+2016-05-09 16:29:49,970   INFO  [SP 3 Site - 0:3] HOST: Globally updating the current application catalog and deployment (new hashes 141B7DD122, FB9F6B8DA6).
+2016-05-09 16:29:50,014   INFO  [SP 3 Site - 0:3] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:50,050   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:50,051   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE TABLE carts
+(
+  cid       varchar(32) UNIQUE NOT NULL,      
+  uid       varchar(32) NOT NULL,
+  mid       varchar(32) NOT NULL,
+  spid      varchar(10) NOT  NULL,
+  mname     varchar(32) NOT NULL,
+  mprice    bigint  NOT NULL,
+  cnum      int default 1,
+  isbuy     tinyint default 0,
+  paytime   TIMESTAMP default '1000-01-01 00:00:00',
+  PRIMARY KEY (cid),
+)
+2016-05-09 16:29:50,277   INFO  [SP 0 Site - 0:0] HOST: Globally updating the current application catalog and deployment (new hashes 224C7228BA, FB9F6B8DA6).
+2016-05-09 16:29:50,316   INFO  [SP 0 Site - 0:0] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:50,365   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:50,365   INFO  [Ad Hoc Planner - 0] COMPILER: 	PARTITION TABLE carts ON COLUMN cid
+2016-05-09 16:29:50,612   INFO  [SP 1 Site - 0:1] HOST: Globally updating the current application catalog and deployment (new hashes 95A2BC02A0, FB9F6B8DA6).
+2016-05-09 16:29:50,667   INFO  [SP 1 Site - 0:1] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:50,719   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:50,719   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE INDEX i_up ON carts(uid, paytime)
+2016-05-09 16:29:51,063   INFO  [SP 1 Site - 0:1] HOST: Globally updating the current application catalog and deployment (new hashes 2A37BF4A7D, FB9F6B8DA6).
+2016-05-09 16:29:51,142   INFO  [SP 1 Site - 0:1] HOST: No resource usage limit monitoring configured
+2016-05-09 16:29:51,189   INFO  [Ad Hoc Planner - 0] COMPILER: Applying the following DDL to cluster:
+2016-05-09 16:29:51,189   INFO  [Ad Hoc Planner - 0] COMPILER: 	CREATE PROCEDURE search_all_carts as SELECT * FROM carts
+2016-05-09 16:29:51,491   INFO  [SP 5 Site - 0:5] HOST: Globally updating the current application catalog and deployment (new hashes 779D062795, FB9F6B8DA6).
+2016-05-09 16:29:51,538   INFO  [SP 5 Site - 0:5] HOST: No resource usage limit monitoring configured
+2016-05-09 16:36:17,708   WARN  [Volt Client Network - 1] DBBPOOL: Strict java memory checking is enabled, don't do release builds or performance runs with this enabled. Invoke "ant clean" and "ant -Djmemcheck=NO_MEMCHECK" to disable.

@@ -1,0 +1,8 @@
+{
+    "log4jDst": [{
+        "format": "'.'yyyy-MM-dd",
+        "path": "/run/media/foogle/新加卷1/workspace/voltWeb/log/volt.log"
+    }],
+    "pid": 2980,
+    "workingDir": "/run/media/foogle/新加卷1/workspace/voltWeb"
+}
